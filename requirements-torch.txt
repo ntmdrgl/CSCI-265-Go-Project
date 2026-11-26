@@ -1,0 +1,8 @@
+# Python 3.12, Windows/Linux x86-64
+# CUDA 12.8 includes Blackwell (RTX 50-series) support and supports Ada (RTX 40-series).
+# Requires a compatible NVIDIA driver; the wheels include the CUDA runtime.
+# Install: python -m pip install -r requirements-torch.txt
+--index-url https://download.pytorch.org/whl/cu128
+
+torch==2.9.1+cu128
+torchvision==0.24.1+cu128
